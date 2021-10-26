@@ -6,84 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club d'Aqua-Poney de Limoux</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css"> -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="container-fluid">
-    <header class="row row-cols-1 d-flex flex-column align-content-center">
-        <div class="row header-top d-flex align-items-center">
-            <logo class="col-3 h-auto"><img class="w-100 border border-3 rounded-circle" src="../image/logo.png"
-                    alt="Logo Aqua Poney"></logo>
-            <div class="header-titles col-7 text-center">
-                <h1 class="row">Aqua-Poney in Limoux</h1>
-                <p class="fst-italic fw-bold">Fédération Française d'Aqua-Poney</p>
+<body class="container mx-auto">
+    <div class="flex flex-col justify-center border border-8 border-red-800">
+        <header class="flex flex-col aligne-items-center">
+            <!--  -->
+            <div class="top flex justify-start">
+
+                <!-- <img class="" src="../image/logo.png" alt="Logo Aqua Poney"> -->
+                <img class="w-1/4 h-full" src="../image/logo.png" alt="Logo Aqua Poney">
+                <!-- <div class="text-center"> -->
+                <div class="w-3/4 text-center">
+                    <h1 class="text-xl">Aqua-Poney in Limoux</h1>
+                    <p class="text-xs italic">Fédération Française d'Aqua-Poney</p>
+                </div>
+                <div class="self-end">
+                    <button
+                        class=" border border-black bg-white hover:bg-grey-800 text-gray-700 hover:rext-white py-1 px-2 text-xs rounded-full">Connexion</button>
+                </div>
+
             </div>
-            <div class="btn-group col-2 d-flex flex-column">
-                <button class="btn btn-success h-25 font-size-small">Login</button>
-                <button class="btn btn-secondary h-25">Créer un compte</button>
-            </div>
-
-        </div>
-
-        <img class="header-img " src="https://cdn.pixabay.com/photo/2021/09/26/14/47/friendship-6657973_960_720.jpg"
-            alt="aquaponing">
-
-        <nav class="navbar-nav">
-            <div class="row d-flex flex-column align-content-center mb-2">
-                <div class="my-1 w-75 row">
-                    <a class="text-reset text-decoration-none text-center border border-3 rounded-circle bg-success fw-bold"
-                        href="#fede">La
-                        Fédération</a>
-                </div>
-                <div class="my-1 w-75 row">
-                    <a class="text-reset text-decoration-none text-center border border-3 rounded-circle bg-success fw-bold"
-                        href="#disciplines">Les disciplines</a>
-                </div>
-                <div class="my-1 w-75 row">
-                    <a class="text-reset text-decoration-none text-center border border-3 rounded-circle bg-success fw-bold"
-                        href="#club">Le club de Limoux</a>
-                </div>
-                <div class="my-1 w-75 row">
-                    <a class="text-reset text-decoration-none text-center border border-3 rounded-circle bg-success fw-bold"
-                        href="#adherer">Adhérer</a>
-                </div>
+            <div class="w-auto">
+                <img class="" src="https://cdn.pixabay.com/photo/2021/09/26/14/47/friendship-6657973_960_720.jpg"
+                    alt="aquaponing">
             </div>
 
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <article id="fede">La fédération</article>
-            <div class="">Le rôle de la FFAP</div>
-            <div class="">Histoire de la FFAP</div>
-            <article id="disciplines">Les disciplines</article>
-            <div class="card">Saut d'obstacle</div>
-            <div class="card">Endurance</div>
-            <div class="card">Voltige</div>
-            <div class="card">Pêche à courre</div>
-            <div class="card">Attelage</div>
-        </section>
+            <nav class="bot menu">
+                <div class="">
+                    <div class="">
+                        <a class="" href="#fede">La
+                            Fédération</a>
+                    </div>
+                    <div class="">
+                        <a class="" href="#disciplines">Les disciplines</a>
+                    </div>
+                    <div class="">
+                        <a class="" href="#club">Le club de Limoux</a>
+                    </div>
+                    <div class="">
+                        <a class="" href="#adherer">Adhérer</a>
+                    </div>
+                </div>
 
-        <section>
-            <article id="club">Le club de Limoux</article>
-            <article id="adherer">Adhérer au club</article>
-        </section>
-        <aside>Les compétitions</aside>
+            </nav>
+        </header>
 
-    </main>
-    <footer>
+        <main>
+            <section>
+                <article id="fede">La fédération</article>
+                <div class="">Le rôle de la FFAP</div>
+                <div class="">Histoire de la FFAP</div>
+                <article id="disciplines">Les disciplines</article>
+                <div class="card">Saut d'obstacle</div>
+                <div class="card">Endurance</div>
+                <div class="card">Voltige</div>
+                <div class="card">Pêche à courre</div>
+                <div class="card">Attelage</div>
+            </section>
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+            <section>
+                <article id="club">Le club de Limoux</article>
+                <article id="adherer">Adhérer au club</article>
+            </section>
+            <aside>Les compétitions</aside>
+
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+
 </body>
 
 </html>

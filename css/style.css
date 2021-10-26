@@ -1,4 +1,50 @@
+/* 
+.header,
+.header-top {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  height: 15rem;
+  
+  max-width: calc(100% - 50px);
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.header-top {
+  background-color: chartreuse;
+ 
+  width: 100%;
+}
+
+.header-top-logo {
+  width: 5rem;
+  height: auto;
+}
+
+.header-top-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-top-title-h1 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.header-top-title-subtitle {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.header-top-title-h1,
+.header-top-title-subtitle {
+  text-align: center;
+}
+
 .header-img {
   max-height: 200px;
   width: auto;
-}
+} */
