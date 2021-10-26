@@ -12,7 +12,7 @@
 </head>
 
 <body class="container mx-auto">
-    <div class="flex flex-col justify-center border border-8 border-red-800">
+    <div class="flex flex-col justify-center">
         <header class="flex flex-col aligne-items-center">
             <!--  -->
             <div class="top flex justify-start">
@@ -20,35 +20,35 @@
                 <!-- <img class="" src="../image/logo.png" alt="Logo Aqua Poney"> -->
                 <img class="w-1/4 h-full" src="../image/logo.png" alt="Logo Aqua Poney">
                 <!-- <div class="text-center"> -->
-                <div class="w-3/4 text-center">
-                    <h1 class="text-xl">Aqua-Poney in Limoux</h1>
+                <div class="w-3/4 text-center flex flex-col justify-center">
+                    <h1 class="text-2xl">Aqua-Poney in Limoux</h1>
                     <p class="text-xs italic">Fédération Française d'Aqua-Poney</p>
                 </div>
                 <div class="self-end">
                     <button
-                        class=" border border-black bg-white hover:bg-grey-800 text-gray-700 hover:rext-white py-1 px-2 text-xs rounded-full">Connexion</button>
+                        class=" border border-green-600 bg-green-100 hover:bg-grey-800 text-gray-700 hover:rext-white py-1 px-2 text-xs rounded-full m-">Connexion</button>
                 </div>
 
             </div>
             <div class="w-auto">
-                <img class="" src="https://cdn.pixabay.com/photo/2021/09/26/14/47/friendship-6657973_960_720.jpg"
+                <img class="p-1" src="https://cdn.pixabay.com/photo/2021/09/26/14/47/friendship-6657973_960_720.jpg"
                     alt="aquaponing">
             </div>
 
 
             <nav class="bot menu">
-                <div class="">
-                    <div class="">
+                <div class="flex flex-col items-center m-2 space-y-1">
+                    <div class="border rounded-full border-green-600 w-full text-center bg-green-100">
                         <a class="" href="#fede">La
                             Fédération</a>
                     </div>
-                    <div class="">
+                    <div class="border rounded-full border-green-600 w-full text-center bg-green-100">
                         <a class="" href="#disciplines">Les disciplines</a>
                     </div>
-                    <div class="">
+                    <div class="border rounded-full border-green-600 w-full text-center bg-green-100">
                         <a class="" href="#club">Le club de Limoux</a>
                     </div>
-                    <div class="">
+                    <div class="border rounded-full border-green-600 w-full text-center bg-green-100">
                         <a class="" href="#adherer">Adhérer</a>
                     </div>
                 </div>
@@ -56,24 +56,86 @@
             </nav>
         </header>
 
-        <main>
-            <section>
-                <article id="fede">La fédération</article>
-                <div class="">Le rôle de la FFAP</div>
-                <div class="">Histoire de la FFAP</div>
-                <article id="disciplines">Les disciplines</article>
-                <div class="card">Saut d'obstacle</div>
-                <div class="card">Endurance</div>
-                <div class="card">Voltige</div>
-                <div class="card">Pêche à courre</div>
-                <div class="card">Attelage</div>
+        <main class="space-y-1 mx-1">
+            <section class="border border-black">
+                <article id="fede" class="p-2">
+                    <h2 class="text-xl text-center font-bold">La Fédération</h2>
+
+                    <div class="">
+                        <h3 class="underline italic font-bold">Le rôle de la FFAP</h3>
+                        <p class="text-xs">Le rôle de la Fédération Française d'Aqua-Poney est de développer et
+                            promouvoir ce sport auprès de toute la population.</p>
+                        <p class="text-xs">Qu'est-ce que l'Aqua-Poney ?</p>
+                        <p class="text-xs">C'est la possibilité de mélanger à la fois une passion pour les sports
+                            aquatiques et les sports équestres. A l'origine pratiqué dans une piscine, les disciplines
+                            se sont
+                            multipliées afin de pouvoir les pratiquer en eaux vives.</p>
+                        <p class="text-xs">Ce qui se fait aujourd'hui à Limoux.</p>
+                    </div>
+
+                </article>
+
+                <article id="disciplines" class="p-2">
+                    <h2 class="text-xl text-center font-bold">Les disciplines</h2>
+                    <div class="flex flex-wrap justify-around">
+                        <div class="m-2">
+                            <img src="https://www.ffe.com/var/ezwebin_site/storage/images/media/images/logo-et-visuels-divers/logo-disciplines/logo-cso/3758-3-fre-FR/Logo-CSO_listitem_no_crop.png"
+                                alt="">
+                            <h3 class="underline italic font-bold text-center">Course d'obstacles</h3>
+                        </div>
+                        <div class="m-2">
+                            <img src="https://www.ffe.com/var/ezwebin_site/storage/images/media/images/logo-et-visuels-divers/logo-disciplines/logo-endurance/8668-4-fre-FR/Logo-Endurance_listitem_no_crop.png"
+                                alt="Endurance">
+                            <h3 class="underline italic font-bold text-center">Endurance</h3>
+                        </div>
+                        <div class="m-2">
+                            <img src="https://www.ffe.com/var/ezwebin_site/storage/images/media/images/logo-et-visuels-divers/logo-disciplines/logo-voltige/8671-2-fre-FR/Logo-Voltige_listitem_no_crop.png"
+                                alt="Voltige">
+                            <h3 class="underline italic font-bold text-center">Voltige</h3>
+                        </div>
+                        <div class="m-2">
+                            <img src="https://www.ffe.com/var/ezwebin_site/storage/images/media/images/logo-et-visuels-divers/logo-disciplines/logo-endurance-en-attelage/17754-4-fre-FR/Logo-Endurance-en-attelage_listitem_no_crop.png"
+                                alt="Pêche à courre">
+                            <h3 class="underline italic font-bold text-center">Pêche à courre</h3>
+                        </div>
+                        <div class="m-2">
+                            <img src="https://www.ffe.com/var/ezwebin_site/storage/images/media/images/logo-et-visuels-divers/logo-disciplines/logo-attelage/8665-2-fre-FR/Logo-Attelage_listitem_no_crop.png"
+                                alt="courses d'attelage">
+                            <h3 class="underline italic font-bold text-center">Courses d'Attelage</h3>
+                        </div>
+                    </div>
+
+                </article>
             </section>
 
-            <section>
-                <article id="club">Le club de Limoux</article>
-                <article id="adherer">Adhérer au club</article>
+            <section class="border border-black">
+                <article id="club" class="p-2">
+                    <h2 class="text-xl text-center font-bold">Le club de Limoux</h2>
+                    <p class="text-xs">Idéalement situé sur les bord de l'Aude, Limoux offre un espace privilégié pour
+                        accueillir un club d'Aqua-Poney.</p>
+                    <p class="text-xs">A proximité de l'Ecole de Musique, il permet d'accueillir tous les tire aux flans
+                        qui ne
+                        veulent pas assister aux cours de Formation Musicale (le solfège, quoi !)</p>
+                    <p class="text-xs">D'ailleurs il est à noter que les heures de pratiques de l'Aqua-Poney sont les
+                        lundis,
+                        mardis, jeudis, vendredis entre 17h30 et 19h et le mercredi de 13h30 à 19h</p>
+                </article>
+                <article id="adherer" class="p-2 text-center">
+                    <a href="#" class="text-xl font-bold pt-1">Adhérer au club</a>
+                </article>
             </section>
-            <aside>Les compétitions</aside>
+            <aside class=" border border-black text-center p-2">
+                <h2 class="text-xl font-bold pt-1">Les compétitions à venir</h2>
+                <ul>
+                    <li><a class="text-xs" href="#">19/12/2021 : Finale de la Coupe de France de Pêche à Courre au Lac
+                            du Matemal</a>
+                    </li>
+                    <li><a class="text-xs" href="#">01/01/2022 : 1/2 Finale de l'Aude de Voltige en eaux vives à
+                            Gruissan</a></li>
+                    <li><a class="text-xs" href="#">30/02/2022 : Démonstration de la nouvelle discipline : l'Aqua-Poney
+                            Pipeau</a></li>
+                </ul>
+            </aside>
 
         </main>
         <footer>
